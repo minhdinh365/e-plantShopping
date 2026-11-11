@@ -163,14 +163,21 @@ body {
 .cart{
     color: white;
     display: flex;
+    align-items: center;
+    position: relative;
 }
 .cart_quantity_count{
-    margin-top: 16px;
-    /* background-color: red; */
-    margin-left: 27px;
     position: absolute;
-    font-size: 29px;
-
+    top: 0;
+    right: -8px;
+    min-width: 24px;
+    padding: 2px 6px;
+    border-radius: 999px;
+    background-color: #e74c3c;
+    color: white;
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: center;
 }
 .plantname_heading{
    display: flex;
